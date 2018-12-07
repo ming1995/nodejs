@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<body>
+Get请求
+<form action="get_data" method="GET">
+     Name: <input type="text" name="name">  <br>
+
+     Age: <input type="text" name="age">
+    <input type="submit" value="Submit">
+</form>
+<br>
+Post请求
+<form action="post_data" method="Post">
+    Name: <input type="text" name="name">  <br>
+
+    Age: <input type="text" name="age">
+    <input type="submit" value="Submit">
+</form>
+<br>
+文件上传
+<html>
+<head>
+    <title>文件上传表单</title>
+</head>
+<body>
+<h3>文件上传：</h3>
+选择一个文件上传: <br />
+<form action="/file_upload" method="post" enctype="multipart/form-data">
+    <input type="file" name="image" size="50" />
+    <br />
+    <input type="submit" value="上传文件" />
+</form>
+</body>
+</html>
+</body>
+</html>
